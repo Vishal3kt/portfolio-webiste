@@ -1,0 +1,11 @@
+#right-section-wrapper {
+  width: 60%;
+  color: #0d1426;
+}
+
+@media only screen and (max-width: 768px) {
+  #right-section-wrapper {
+    width: 100%;
+    color: #0d1426;
+  }
+}

@@ -1,0 +1,12 @@
+.mouse-aura {
+  pointer-events: none;
+  position: fixed;
+  inset: 0px;
+  background-image: radial-gradient(
+    circle at var(--mouse-x) var(--mouse-y),
+    rgba(63, 81, 181, 0.3) 0%,
+    rgba(63, 81, 181, 0.15) 30%,
+    rgba(63, 81, 181, 0) 50%
+  );
+  z-index: 1000;
+}

@@ -1,0 +1,212 @@
+.experience-section {
+  padding-bottom: 64px;
+  scroll-margin-top: 64px;
+
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    margin: 0 -1.5rem 1rem;
+    padding: 1.25rem 1.5rem;
+    backdrop-filter: blur(10px);
+
+    @media (min-width: 768px) {
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      color: #0d1426;
+    }
+
+    @media (min-width: 1024px) {
+      position: relative;
+      top: auto;
+      margin: 0 auto;
+      width: 100%;
+      padding: 0;
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  .header-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #0d1426;
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .section-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #e2e8f0;
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .group-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .experience-item {
+    margin-bottom: 48px;
+
+    .group {
+      position: relative;
+      display: grid;
+      padding-bottom: 4px;
+      transition: all 0.3s;
+
+      &:hover {
+        .ri-arrow-right-up-long-line {
+          transform: translate(4px, -7px);
+          transition: transform 0.3s ease-in-out;
+        }
+      }
+
+      .ri-arrow-right-up-long-line {
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      @media (min-width: 640px) {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 32px;
+      }
+
+      @media (min-width: 768px) {
+        gap: 4px;
+      }
+
+      &:hover .background-overlay {
+        background-color: rgba(148, 163, 184, 0.1);
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &:hover .experience-link {
+        color: #2b5edc;
+        transition: background-color 0.3s ease-in-out;
+      }
+    }
+
+    .background-overlay {
+      position: absolute;
+      inset: -16px;
+      z-index: 0;
+      display: block;
+      border-radius: 6px;
+      transition: all 0.3s;
+      box-shadow: inset 0 1px 0 rgba(148, 163, 184, 0.1);
+
+      &:hover {
+        background-color: rgba(148, 163, 184, 0.1);
+      }
+
+      @media (min-width: 1024px) {
+        display: block;
+      }
+    }
+
+    .experience-header {
+      z-index: 10;
+      margin-bottom: 8px;
+      margin-top: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+
+      @media (min-width: 640px) {
+        grid-column: span 4;
+      }
+    }
+
+    .experience-details {
+      z-index: 10;
+
+      @media (min-width: 640px) {
+        grid-column: span 8;
+      }
+    }
+
+    .experience-title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      color: #e2e8f0;
+      transition: color 0.3s ease-in-out;
+
+      .experience-link {
+        display: inline-flex;
+        align-items: baseline;
+        font-weight: 500;
+        line-height: 20px;
+        color: #0d1426;
+        transition: color 0.2s ease-in-out;
+        position: relative;
+
+        &:hover,
+        &:focus-visible {
+          color: #2b5edc;
+        }
+
+        .link-overlay {
+          position: absolute;
+          inset: -16px;
+          display: none;
+
+          .company-name {
+            cursor: pointer;
+          }
+
+          @media (min-width: 768px) {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .experience-description {
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .technologies-list {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .tech-item {
+      margin-right: 6px;
+      margin-top: 8px;
+
+      .tech-badge {
+        display: flex;
+        align-items: center;
+        border-radius: 9999px;
+        background-color: #2b5edc;
+        padding: 4px 12px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #f8fafc;
+      }
+    }
+  }
+}

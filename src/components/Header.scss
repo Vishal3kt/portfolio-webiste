@@ -1,0 +1,124 @@
+#Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #0d1426;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 46px;
+
+    .name-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+
+      .name {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.2px;
+      }
+
+      .designation {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+      }
+
+      .sort-info {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 6px;
+        width: 70%;
+      }
+    }
+
+    .middle-section {
+      margin-bottom: 32px;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 30%;
+
+        a {
+          .active {
+            transform: translateX(26px);
+            transition: ease-in-out 0.2s;
+          }
+
+          .group {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 6px;
+            cursor: pointer;
+          }
+
+          &:hover {
+            transform: translateX(26px);
+            transition: ease-in-out 0.2s;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Icons-ul {
+  display: flex;
+  justify-self: flex-end;
+  gap: 18px;
+  margin-top: 18px;
+
+  li {
+    cursor: pointer;
+
+    .block {
+      .sr-only {
+        i {
+          font-size: 26px;
+
+          &:hover {
+            color: #e2e8f0;
+            transition: ease-in-out 0.2s;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  #Header {
+    width: 100%;
+
+    .wrapper {
+      .name-wrapper {
+        gap: 12px;
+
+        .name {
+          font-size: 34px;
+          line-height: 2.5rem;
+        }
+
+        .sort-info {
+          margin: 0;
+          width: 100%;
+        }
+      }
+
+      .middle-section {
+        display: none;
+      }
+    }
+  }
+}
