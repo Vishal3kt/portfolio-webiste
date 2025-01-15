@@ -110,7 +110,7 @@ const Project = () => {
                             <div className="project-details">
                                 <h3 className="project-title">
                                     <div>
-                                        <a className="project-link" target="_blank" rel="noreferrer noopener" >
+                                        <a href='https://expense-tracker-12345.netlify.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
                                             <span className="link-overlay"></span>
                                             <span>
                                                 Mobile-App (Expense-Tracker made with React.JS)  {""}
@@ -138,10 +138,10 @@ const Project = () => {
                             <div className="project-details">
                                 <h3 className="project-title">
                                     <div>
-                                        <a href='https://bubble-game-46465f.netlify.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
+                                        <a href='https://simons-game-1.netlify.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
                                             <span className="link-overlay"></span>
                                             <span>
-                                                Bubble-game using Vanilla-JS {""}
+                                                Simon Game using Vanilla-JS {""}
                                                 <span className="company-name">
                                                     <i className="ri-arrow-right-up-long-line"></i>
                                                 </span>
