@@ -110,7 +110,7 @@ const Project = () => {
                             <div className="project-details">
                                 <h3 className="project-title">
                                     <div>
-                                        <a href='https://expense-tracker-12345.netlify.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
+                                        <a href='https://expense-tracker-mobile-app.vercel.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
                                             <span className="link-overlay"></span>
                                             <span>
                                                 Mobile-App (Expense-Tracker made with React.JS)  {""}
