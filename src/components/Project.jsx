@@ -54,7 +54,7 @@ const Project = () => {
                             <div className="project-details">
                                 <h3 className="project-title">
                                     <div>
-                                        <a href='https://react-commandline.vercel.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
+                                        <a href='https://command-line-react.vercel.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
                                             <span className="link-overlay"></span>
                                             <span>
                                                 Command Line using React.JS {""}
