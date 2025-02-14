@@ -26,7 +26,7 @@ const Project = () => {
                             <div className="project-details">
                                 <h3 className="project-title">
                                     <div>
-                                        <a href='https://expense-tracker-3k.vercel.app/' className="project-link" target="_blank" rel="noreferrer noopener" >
+                                        <a href='https://expense-tracker-vishal3kts-projects.vercel.app/login' className="project-link" target="_blank" rel="noreferrer noopener" >
                                             <span className="link-overlay"></span>
                                             <span>
                                                 Expense-Tracker made with Angular {""}
