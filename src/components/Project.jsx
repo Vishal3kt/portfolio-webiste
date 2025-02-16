@@ -38,7 +38,7 @@ const Project = () => {
                                     </div>
                                 </h3>
                                 <p className="project-description">
-                                    Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.
+                                    This is the expense tracker made in Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.
                                 </p>
                             </div>
                         </div>
